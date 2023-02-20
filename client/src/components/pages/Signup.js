@@ -74,7 +74,7 @@ const PostData =() =>{
   return (
     <div className="bCard">
       <div className="card lCard input-field ">
-        <h2>SINGUP</h2>
+        <h4><b>SignUp</b></h4>
         <input
           type="text"
           placeholder="name"
@@ -95,7 +95,7 @@ const PostData =() =>{
         />
    
    <div className="file-field input-field">
-        <div className="btn  #e57373 red lighten-2">
+        <div className="btn  #bf360c deep-orange darken-4">
           <span>Upload Photo</span>
           <input type="file" onChange={(e) => setImage(e.target.files[0])} />
         </div>
@@ -103,9 +103,9 @@ const PostData =() =>{
           <input className="file-path validate" type="text" placeholder="" />
         </div>
       </div>
-        <button className="btn waves-effect waves-light #e57373 red lighten-2"
+        <button className="btn waves-effect waves-light #bf360c deep-orange darken-4"
         onClick={()=>PostData()}>
-          SINGUP
+          SignUp
         </button>
         <br />
         <Link to="/signin">Already have an account ?</Link>

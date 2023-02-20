@@ -46,7 +46,7 @@ export default function SignIn() {
       <div className="col-8" style={{backgroundColor:"#ffebee red lighten-5"}}>
       <div className='bCard'>
       <div data-testid="sign-1" className="card lCard input-field ">
-       <h3>LOGIN/SINGIN</h3>
+       <h4><b>SignIn</b></h4>
        <input
           type="email"
           placeholder="email"
@@ -59,8 +59,8 @@ export default function SignIn() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-
-       <button className ='btn waves-effect waves-light #e57373 red lighten-2'
+<br/><br/>
+       <button className ='btn waves-effect waves-light #bf360c deep-orange darken-4'
        onClick={()=>PostData()}>
         LOGIN
        </button>
