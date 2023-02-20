@@ -14,8 +14,8 @@
 }
 /* label underline focus color */
 .input-field input[type=text],[type=password],[type=email]:focus {
-  border-bottom: 1px solid rgb(157, 11, 11) !important;
-  box-shadow: 0 1px 0 0  rgb(158, 13, 13) !important;
+  border-bottom: 1px solid rgb(84, 3, 3) !important;
+  box-shadow: 0 1px 0 0  rgb(97, 2, 7) !important;
 }
 .gallery{
   display: flex;
