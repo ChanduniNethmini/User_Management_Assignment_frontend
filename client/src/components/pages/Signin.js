@@ -34,7 +34,7 @@ export default function SignIn() {
         localStorage.setItem("user", JSON.stringify(data.user))
        dispatch({type:"USER", payload:data.user})
         M.toast({html:'Signedin successfully', classes:"green dark"})
-        navigate('/')
+        navigate('/profile')
       }
     }).catch(err=>{
       console.log(err)

@@ -17,30 +17,30 @@ export default function Profile() {
   return (
     <div style={{maxWidth:'550px', margin:'0px auto', textAlign:'center'}}>
      <hr/>
-     <h4>My Profile</h4>
+     <h4><b><u>My Profile</u></b></h4>
     <div className='row'>
       <div className='col'>
       <div style={{display:'flex', 
       justifyContent:"space-around", 
       margin:'18px 0px',
-      padding: '20px',
+      padding: '10px',
   textAlign:'center'
       }}>
         <div>
-          <img style={{width:'100px', height:'100px', borderRadius:'80px', marginRight:'50%'}}
+          <img style={{width:'120px', height:'120px', borderRadius:'80px', marginRight:'50%'}}
           src={state?state.pic:"loading"}/>
         </div>
       </div>
       </div>
     <div className='col'>
-    <h5>Welcome back {state?state.name:"loading"}</h5>
-        <div style={{display:'flex',  justifyContent:"space-between", width:'108%',  padding: '20px'}}>
-     <h5>{state?state.email:"loading"}</h5>
-        <div style={{display:'flex',  justifyContent:"space-between", width:'108%',  padding: '20px',
-  textAlign:'center'}}></div>
-        
+  
+    <h5>Hello {state?state.name:"loading"} !</h5>
+        <div style={{display:'flex',  justifyContent:"space-between", width:'108%',  padding: '5px'}}></div>
+     <h5>Your email: {state?state.email:"loading"}</h5>
+        <div style={{display:'flex',  justifyContent:"space-between", width:'108%',  padding: '5px', }}></div>
 
-        </div>
+    
+      
       </div>
     </div>
     <hr/>
